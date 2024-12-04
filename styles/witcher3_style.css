@@ -149,39 +149,74 @@ nav .fa {
     height: 100vh;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: end;
+    justify-content: end;
+    align-items: center;
     background-image: url("../images/choices.avif");
     background-position: center;
     background-size: cover;
 }
+
+.explore {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url("../images/openworld-exploration.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.monster {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background-image: url("../images/monster.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.first {
+    margin-right: 130px;
+}
+
+.second {
+    margin-right: 90px;
+    margin-top: 80px;
+}
+
+.third {
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.fourth {
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
 .desc {
-    width: 40%;
+    width: 35%;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     color: white;
     text-align: center;
 }
 
-.first {
-    margin-right: 100px;
-}
-
-.second {
-    margin-bottom: 20px;
-}
-
 .desc h1 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: bold;
+    text-transform: capitalize;
     color: #fff;
 }
 
 .desc p {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.6;
-    max-height: 300px;
+    max-height: 200px;
     overflow-y: auto;
 }
 
@@ -203,18 +238,15 @@ nav .fa {
 }
 
 @media(max-width: 700px){
-    .story {
+    .story, .choices, .explore {
         justify-content: center;
         align-items: center;
     }
-    .choices {
-        align-items: center;
+    .first, .second, .third {
+        margin: 0;
     }
     .desc {
         width: 80%;
-    }
-    .first {
-        margin: 0;
     }
 }
 
