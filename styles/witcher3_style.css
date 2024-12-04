@@ -133,6 +133,10 @@ nav .fa {
 
     }
 }
+/* MAIN PART */
+section {
+    border-top: 10px solid black;
+}
 
 .story {
     height: 100vh;
@@ -240,10 +244,11 @@ nav .fa {
 @media(max-width: 700px){
     .story, .choices, .explore, .monster {
         justify-content: center;
-        align-items: center;
+        align-items: end;
     }
     .first, .second, .third, .fourth {
         margin: 0;
+        margin-bottom: 70px;
     }
     .desc {
         width: 80%;
