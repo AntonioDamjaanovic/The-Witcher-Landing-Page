@@ -242,6 +242,19 @@ section {
     background: transparent; /* Prozirna pozadina trake klizača */
 }
 
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.logo img {
+    width: 170px;
+    height: auto;
+}
+
 @media(max-width: 700px){
     .story, .choices, .explore, .monster {
         justify-content: center;
@@ -254,19 +267,13 @@ section {
     .desc {
         width: 80%;
     }
-}
-
-.logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 70px;
-    margin-top: 30px;
-}
-
-.logo img {
-    width: 170px;
-    height: auto;
+    .logo {
+        margin-left: 20px;
+    }
+    .logo img {
+        width: 120px;
+        height: auto;
+    }
 }
 
 /* FOOTER PART */
