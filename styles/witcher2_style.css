@@ -4,6 +4,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/witcher2_background.webp"); 
+    background-position: center; 
+    background-size: cover; background-attachment: fixed;
+}
+
 header {
     min-height: 100vh;
     width: 100%;
@@ -130,20 +141,78 @@ nav .fa {
 main {
     width: 100%;
     height: auto;
-    background-image: url("../images/witcher2_background.webp");
-    background-position: center;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: start;
 }
 
 article {
-    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;  /* Ensure article is positioned relative to its child elements */
+    background-color: rgba(0, 0, 0, 0.85);
     color: #d9d9d8f1;
-    width: 60%;
-    margin: 100px 0 100px 0;
-    padding: 30px;
+    width: 70%;
+    margin: 100px 0 50px 0;
+    padding: 35px;
+}
+
+.aside {
+    width: 30%;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    background-color: #1e1f1f;
+    color: #d9d9d8f1;
+    border: 1px solid #3c3d3d;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.logo, .cover {
+    margin-bottom: 20px;
+}
+
+.aside .logo img, .aside .cover img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.desc .row {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+
+.property {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    flex: 1;
+    margin-left: 15px;
+    text-align: right;
+    
+}
+
+.value {
+    padding: 5px 10px;
+    flex: 2;
+}
+
+.property h6, .value p {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+section:last-child {
+    margin-bottom: 0;
 }
 
 article h1 {
@@ -156,6 +225,11 @@ article h2 {
 
 article h4 {
     font-size: 18px;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .table_contents {
@@ -183,6 +257,7 @@ article h4 {
     list-style-position: inside;
     width: 90%;
     margin-bottom: 8px;
+    padding-left: 10px;
 }
 
 .table_contents li:hover {
@@ -194,14 +269,15 @@ article h4 {
     color: #7bbbff;
 }
 
-
-section {
-    margin-bottom: 35px;
+.intro, .announcements, .platforms {
+    width: 70%;
 }
 
-section:last-child {
-    margin-bottom: 0;
+.gameplay li, .system li {
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
+
 
 /* FOOTER PART */
 footer {
