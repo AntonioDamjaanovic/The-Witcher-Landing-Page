@@ -176,6 +176,14 @@ article {
     height: auto;
 }
 
+.title {
+    text-align: center;
+    background-color: #384c74;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin: 0 3px 5px 3px;
+}
+
 .desc {
     display: flex;
     flex-direction: column;
@@ -205,6 +213,14 @@ article {
 
 .property h6, .value p {
     margin: 0;
+}
+
+.property h6 {
+    font-size: 15px;
+}
+
+.value p {
+    font-size: 13px;
 }
 
 section {
