@@ -307,7 +307,7 @@ article p {
     article {
         width: 90%;
         margin: 50px 0 20px 0;
-        padding-top: 1000px;
+        padding-top: 100%;
     }
     .table_contents {
         width: 250px;
@@ -315,7 +315,7 @@ article p {
     .aside {
         top: 0;
         left: 0;
-        width: 380px;
+        width: 90%;
         margin: auto;
     }
     .intro, .announcements {
