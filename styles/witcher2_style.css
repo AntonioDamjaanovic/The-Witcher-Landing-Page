@@ -163,7 +163,7 @@ article {
 }
 
 .aside {
-    width: 300px; /* Fixed width */
+    width: 300px;
     position: absolute; 
     top: 0;
     right: 0;
@@ -307,27 +307,20 @@ article p {
     article {
         width: 90%;
         margin: 50px 0 20px 0;
-        padding-top: 1100px;
     }
     .table_contents {
         width: 250px;
     }
     .aside {
-        top: 0;
-        left: 0;
+        position: static;
         width: 90%;
         margin: auto;
+        margin-bottom: 30px;
     }
     .intro, .announcements {
         width: 100%;
     }
 
-}
-
-@media(max-width: 400px) {
-    article {
-        padding-top: 1200px;
-    }
 }
 
 /* FOOTER PART */
