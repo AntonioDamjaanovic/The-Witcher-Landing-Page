@@ -324,6 +324,12 @@ article p {
 
 }
 
+@media(max-width: 400px) {
+    article {
+        padding-top: 1400px;
+    }
+}
+
 /* FOOTER PART */
 footer {
     width: 100%;
