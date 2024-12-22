@@ -9,7 +9,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url("../images/witcher2_background.webp"); 
+    background-image: url("../images/background_witcher.webp"); 
     background-position: center; 
     background-size: cover; background-attachment: fixed;
 }
@@ -156,7 +156,7 @@ article {
     position: relative;
     background-color: rgba(0, 0, 0, 0.85);
     color: #d9d9d8f1;
-    width: 70%;
+    width: 65%;
     margin: 100px 0 50px 0;
     padding: 35px;
 }
@@ -293,7 +293,7 @@ article p {
     color: #7bbbff;
 }
 
-.intro, .announcements {
+.intro {
     width: 70%;
 }
 
@@ -316,7 +316,7 @@ article p {
         margin: auto;
         margin-bottom: 30px;
     }
-    .intro, .announcements {
+    .intro, .story {
         width: 100%;
     }
 
