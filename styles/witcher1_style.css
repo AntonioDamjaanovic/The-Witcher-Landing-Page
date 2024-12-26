@@ -18,7 +18,7 @@ body {
 header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(46, 47, 54, 0.6),rgba(17, 17, 17, 0.6)), url('../images/witcher1_home.jpg');
+    background-image: linear-gradient(rgba(79, 79, 83, 0.6),rgba(23, 23, 23, 0.6)), url('../images/witcher1_home.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -257,6 +257,11 @@ article h2 {
     font-weight: 600;
 }
 
+article h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 article h4 {
     font-size: 18px;
     font-weight: 600;
@@ -274,7 +279,7 @@ article p {
     height: 100%;
     border: 1px solid #3c3d3d;
     border-radius: 2px;
-    width: 290px;
+    width: 400px;
     font-weight: 600;
 }
 
@@ -288,6 +293,10 @@ article p {
 .table_contents a {
     text-decoration: none;
     color: #d9d9d8f1;
+}
+
+.table_contents ul {
+    list-style-type: none;
 }
 
 .table_contents li {
@@ -306,7 +315,7 @@ article p {
     color: #7bbbff;
 }
 
-.intro, .announcements {
+.intro {
     width: 70%;
 }
 
