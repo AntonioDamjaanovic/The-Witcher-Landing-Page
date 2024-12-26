@@ -9,7 +9,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url("../images/witcher2_background.webp"); 
+    background-image: url("../images/witcher1_background.webp"); 
     background-position: center; 
     background-size: cover; 
     background-attachment: fixed;
@@ -18,7 +18,7 @@ body {
 header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(46, 47, 54, 0.6),rgba(17, 17, 17, 0.6)), url('../images/witcher2_home.jpg');
+    background-image: linear-gradient(rgba(46, 47, 54, 0.6),rgba(17, 17, 17, 0.6)), url('../images/witcher1_home.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -68,7 +68,7 @@ nav img {
     text-align: center;
 }
 
-.witcher2_logo img {
+.witcher1_logo img {
     width: 350px;
     height: auto;
 }
@@ -113,7 +113,7 @@ nav .fa {
         top: 50%;
         left: 50%;
     }
-    .witcher2_logo img {
+    .witcher1_logo img {
         width: 250px;
     }
     .text-box h1 {
