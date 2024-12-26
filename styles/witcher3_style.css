@@ -190,8 +190,9 @@ article {
 
 .title h5 {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 900;
     padding-top: 5px;
+    color: #fff;
 }
 
 .desc {
@@ -240,15 +241,27 @@ section:last-child {
 }
 
 article h1 {
-    font-size: 30px;
+    font-size: 34px;
+    font-style: italic;
 }
 
 article h2 {
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+article h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.expansions {
+    font-style: italic;
 }
 
 article h4 {
     font-size: 18px;
+    font-weight: 600;
 }
 
 article p {
@@ -264,17 +277,23 @@ article p {
     border: 1px solid #3c3d3d;
     border-radius: 2px;
     width: 290px;
+    font-weight: 600;
 }
 
 .table_contents h4 {
     margin: 0;
     padding-left: 20px;
     padding-top: 15px;
+    font-weight: 600;
 }
 
 .table_contents a {
     text-decoration: none;
     color: #d9d9d8f1;
+}
+
+.table_contents ul {
+    list-style-type: none;
 }
 
 .table_contents li {
@@ -295,6 +314,10 @@ article p {
 
 .intro {
     width: 70%;
+}
+
+.intro h1 {
+    margin-bottom: 20px;
 }
 
 .gameplay li, .system li {
