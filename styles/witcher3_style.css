@@ -261,7 +261,7 @@ article h3 {
     font-weight: 600;
 }
 
-.expansions {
+.expansions h3 {
     font-style: italic;
 }
 
@@ -276,9 +276,6 @@ article p {
 }
 
 .table_contents {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
     height: 100%;
     border: 1px solid #3c3d3d;
     border-radius: 2px;
@@ -336,9 +333,6 @@ article p {
         width: 90%;
         margin: 50px 0 20px 0;
     }
-    .table_contents {
-        width: 320px;
-    }
     .aside {
         position: static;
         width: 100%;
@@ -348,7 +342,6 @@ article p {
     .intro, .story {
         width: 100%;
     }
-
 }
 
 /* FOOTER PART */
