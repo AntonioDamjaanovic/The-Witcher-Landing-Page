@@ -12,7 +12,7 @@ body {
     background-image: url("../images/background_witcher.webp"); 
     background-position: center; 
     background-size: cover;
-     background-attachment: fixed;
+    background-attachment: fixed;
 }
 
 header {
@@ -308,10 +308,6 @@ article p {
 
 .table_contents li:hover {
     background-color: rgba(33, 43, 53, 1);
-    color: #7bbbff;
-}
-
-.table_contents li:hover a {
     color: #7bbbff;
 }
 

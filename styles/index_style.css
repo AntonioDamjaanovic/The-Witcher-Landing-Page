@@ -131,6 +131,7 @@ nav .fa {
     text-align: center;
     padding-top: 100px;
 }
+
 h1 {
     font-size: 36px;
     font-weight: 600;
@@ -202,7 +203,6 @@ p {
 
 .games-col {
     flex-basis: 32%;
-    border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;

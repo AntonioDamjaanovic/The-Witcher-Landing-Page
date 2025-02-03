@@ -90,7 +90,6 @@ nav img {
 }
 
 .buttons a {
-    display: inline-block;
     text-decoration: none;
 }
 
@@ -296,10 +295,6 @@ article p {
 
 .table_contents li:hover {
     background-color: rgba(33, 43, 53, 1);
-    color: #7bbbff;
-}
-
-.table_contents li:hover a {
     color: #7bbbff;
 }
 

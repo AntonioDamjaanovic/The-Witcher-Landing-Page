@@ -90,7 +90,6 @@ nav img {
 }
 
 .buttons a {
-    display: inline-block;
     text-decoration: none;
 }
 
@@ -308,10 +307,6 @@ article p {
     color: #7bbbff;
 }
 
-.table_contents li:hover a {
-    color: #7bbbff;
-}
-
 .intro {
     width: 70%;
 }
@@ -320,7 +315,7 @@ article p {
     margin-bottom: 20px;
 }
 
-.gameplay li, .system li {
+.system li {
     line-height: 1.5;
     margin-bottom: 10px;
 }
@@ -339,7 +334,7 @@ article p {
         margin: auto;
         margin-bottom: 30px;
     }
-    .intro, .announcements {
+    .intro {
         width: 100%;
     }
 }
